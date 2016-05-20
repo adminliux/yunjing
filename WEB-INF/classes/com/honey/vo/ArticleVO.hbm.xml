@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- 修改用户信息hbm映射文件 -->
+<hibernate-mapping>
+	<class name="com.honey.vo.ArticleVO" table="tb_article">
+		<id name="pkArticle" type="int" column="PK_ARTICLE">
+			<generator class="com.aihuazu.modules.foundation.oid.HibernateOIDGenerator" />
+		</id>
+		<version name="ts" type="com.honey.vo.util.CharTimestampType" />
+		<!-- 用户邮箱 -->
+		<property name="pkArticleType" type="int">
+			<column name="PK_ARTICLE_TYPE" not-null="true" />
+		</property>
+	</class>
+</hibernate-mapping>

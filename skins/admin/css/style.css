@@ -1,0 +1,544 @@
+@charset "utf-8";
+/* CSS Document */
+
+.main_right .Strip{ width:100%; height:27px; background:#e5e5e5; float:left;}
+.main_right .Strip p{ float:left; padding-left:10px; line-height:27px; color:#072134; margin-right:55px; height:27px;} 
+.main_right .user{ width:686px; padding-left:10px; margin-top:23px; float:left;}
+.main_right .user p{ width:100%; float:left;color:#072134; height:27px; line-height: 27px;}
+.main_right .user img{margin-left: 2px;vertical-align: middle;padding-bottom: 5px;}
+.main_right .user input{vertical-align: middle;padding-bottom: 5px;}
+.main_right .user span{ color:#616161;}
+.main_right .user strong{ font-weight:normal; color:#d8212e;}
+.main_right .userem{ margin-top:30px; width:100%; font-style:normal; color:#072134;}
+
+.anniu{ width:119px; height:19px; background:url(/images/index/icon.gif) no-repeat 0 0px; border: none; cursor:pointer; margin-left:5px;}
+.anniujiameng{ width:119px; height:19px; background:url(/images/index/jiameng.gif) no-repeat 0 0px; border: none; cursor:pointer; margin-left:5px;}
+.anniuguanggao{ width:119px; height:19px; background:url(/images/index/guanggao.gif) no-repeat 0 0px; border: none; cursor:pointer; margin-left:5px;}
+
+.anniu_jixugoumai{ width:142px; height:21px; background:url(/images/index/jixu.gif) no-repeat 0 0px; border: none; cursor:pointer; margin-left:5px;}
+.anniu_shenghe{ width:142px; height:21px; background:url(/images/index/shenghe.gif) no-repeat 0 0px; border: none;  margin-left:5px;}
+.anniu_jixuxufei{ width:71px; height:21px; background:url(/images/index/jixuxufei.gif) no-repeat 0 0px; border: none; cursor:pointer; margin-left:5px;}
+.anniu2{ width:49px; height:19px; background:url(../images/index/icon.gif) no-repeat 0 -57px; border:none; cursor:pointer; margin-left:5px;}
+.Prompt{ width:687px; float:left; border:1px dashed #858585; padding-left:11px; padding-top:13px; padding-bottom:12px;}
+.Prompt_l{ width:330px; border-right:1px solid #858585; float:left; margin-right:26px; height:110px;}
+.Prompt_l p{ float:left; width:100%; height:22px; color:#000;}
+.Prompt_l span,.Prompt_r span{ color:#d8212e;}
+.Button1{ width:62px; height:19px; float:left; border:none; background:url(/images/index/icon.gif) 0 -38px; cursor:pointer; margin-right:10px;}
+.Button2{ width:62px; height:19px; float:left; border:none; background:url(/images/index/icon.gif) 0 -19px; cursor:pointer; }
+.Prompt_r{ float:left; width:328px;}
+.Prompt_r p {color: #000000;float: left;height: 22px;width: 100%;}
+.Prompt_r strong{ color:#616161; font-weight:normal;}
+
+.Download{ width:764px; float:left; margin-top:18px; background:#f3f3f4; height:69px; padding-top:13px; padding-left:138px;}
+.Download dl{ width:400px; float:left;}
+.Download dl dt{ float:left;}
+.Download dl dt dd{ float:left;}
+.Download_icon{ width:202px; height:54px; float:left; background:url(/images/index/Download_21.gif) no-repeat; border:none; cursor:pointer;}
+
+/* 充值 提现 */
+.title{ width:100%; height:63px; border-bottom:1px solid #858585; float:left;}
+.title ul{}
+.title li{ color:#147e12; font-weight:bold; line-height:38px; padding-left:13px; width:80px; float:left;}
+.title li a{color:#147e12; font-weight:bold;}
+.title div{ float:left; width:90%; font-weight:bold; color:#000; padding-left:13px;}
+.recharge{ float:left; margin-top:11px; width:100%;}
+.dingd{ float:left; margin-top:11px; width:100%; height:30px;}
+.rechargep{ float:left; padding-left:14px;}
+.rechargep select,.mingxip select,.mingxib select{background:#FFF; border:1px solid #8f8f8f; font-size:12px; margin-right:5px; color:#2f2f2f;}
+.rechargep span,.mingxib span{margin-right:5px;}
+.recharge_icon{ width:62px; height:22px; background:url(../images/Recharge/Recharge_07.gif) no-repeat; border:none; cursor:pointer; text-align:center; line-height:22px;color:#2f2f2f;}
+.rechargep bdo{ color:#c90d0d; padding-left:5px;}
+.rechargeb{ width:700px; text-align:center; line-height:50px; float:left; font-size:14px; color:#1c75be; font-weight:bold;}
+.rechargeb span{ margin-left:15px; margin-right:15px;}
+.rechargeb strong{ color:#000; font-weight:bold; font-size:14px;}
+
+
+.rechargeem{ float:left; width:690px;height:20px; padding-left:10px; line-height:20px;}
+.rechargeem bdo{ padding-left:6px; color:#414141; float:left; margin-right:10px; line-height:20px;}
+.rechargeem span{ color:#c90d0d;}
+.shuju{ float:left;}
+.shuju ul{}
+.shuju ul li{}
+.shuju ul li a{ width:18px; margin-right:8px;border:1px solid white; color:#414141; text-decoration:underline; float:left; text-align:center;}
+.shuju ul li a:hover,.shuju ul li a.hover{ width:18px; height:18px;border-color:black;background-color:#d3d3d3;color:#414141; font-weight:bold; text-align:center; text-decoration:none; }
+.shuju ul li a.next{ background:none; font-weight:bold; color:#414141; width:30px;}
+.shuju ul li a.next:hover{ background: none; width:30px; text-decoration:underline;}
+.rechargeem p{ float:left; color:#414141;}
+.rechargeem_box{ width:33px; height:16px; border:1px solid #7f7f7f; margin-left:7px; margin-right:7px;}
+.rechargeem strong{ font-weight:bold; margin-left:30px; color:#414741; text-decoration:none;}
+.rechargeem em,.kefu em{ font-style:normal; margin-left:8px; margin-right:8px;}
+.recharge_box,.yinhangka_shuju{ width:100%; float:left; margin-top:10px;}
+.recharge_box h2,.yinhangka_shuju h2{ width:700px; float:left;}
+.recharge_box h2 img,.yinhangka_shuju h2 img{ float:left;}
+.recharge_box_t,.yinhangka_shuju_t{ width:698px; height:22px; float:left; background:#dfdedf; border-left:1px solid #a0a0a0; border-right:1px solid #a0a0a0;}
+.box_title{ margin-top:3px; width:698px;}
+.box_title b{ float:left; font-weight:normal; color:#414141;}
+.t1{ width:80px; text-align:center}
+.t2{ width:145px; text-align:center}
+.t3{text-align:center}
+.t4{ width:210px; text-align:center}
+.t5{  text-align:center; width:60px;}
+.t6{  text-align:center; width: 150px;}
+ 
+.box_c,.yinhangka_shuju_b{ width:698px; border:1px solid #a0a0a0; float:left; border-bottom:none;}
+.box_c div,.yinhangka_shuju_b div{ height:30px; line-height:30px; border-bottom:1px solid #a0a0a0;}
+.box_c div p{ text-align:center; color:#414141; border-right:1px solid #a0a0a0;padding-left:11px; padding-right:11px; float:left;}
+.box_c div span p{ border:none;}
+.yinhangka_shuju_b bdo{ color:#a10d0d;}
+.kuan{ width:50px; text-align:center; float:left;}
+.ts{ width:120px; text-align:center; float:left;}
+.tixianmemo{ width:150px; text-align:center; float:left;}
+.tixianjine{ width:80px; text-align:center; float:left;}
+.tixianstatus{  width:90px; text-align:center; float:left;}
+
+
+/* 花籽明细 */
+.flower_box_t{ width:778px; height:22px; float:left; background:#dfdedf; border-left:1px solid #a0a0a0; border-right:1px solid #a0a0a0;}
+.flower_box_title{ margin-top:3px; width:698px;}
+.flower_box_title b{ float:left; font-weight:normal; color:#000;}
+.b1{ margin-left:10px; text-align:center}
+.b2{ margin-left:70px; text-align:center}
+.b3{ margin-left:150px;}
+.b4{margin-left:120px;}
+.b5{ margin-left:20px;}
+.b6{text-align:center; margin-left:25px;}
+.b6xitong{text-align:center; margin-left:10px;}
+.flower_title{ width:100%; height:30px; border-bottom:1px solid #858585; float:left; line-height:30px;}
+.flower_title div {float:left; width:100%; font-weight:bold; color:#000; padding-left:13px; text-align: left;}
+.flowerp{ float:left; padding-left:3px; margin-bottom:20px;}
+.flower_box{ width:140px; height:18px; background:#FFF; border:1px solid #858585; margin-left:5px; margin-right:5px; line-height:18px;}
+.flower_c,.kefu_c{ width:698px; border:1px solid #a0a0a0; float:left; border-bottom:none;}
+.flower_c div,.kefu_c div,.xitong_box div{ height:30px; line-height:30px; border-bottom:1px solid #a0a0a0;}
+.flower_c div p,.xitong_box div p{ text-align:center; color:#414141; border-right:1px solid #a0a0a0; float:left; padding-left:5px; padding-right:5px;}
+.flower_c div span p{ border:none; color:#c31212;}
+.kefu_c div span p,.xitong_box div span p{ border:none;}
+.xitong_box div span p{ border:none;}
+.kefu_c div p{ text-align:center; color:#000; border-right:1px solid #a0a0a0; float:left; padding-left:5px; padding-right:5px;}
+.kuan2{ width:256px; text-align:center; float:left;}
+.huaziserial{width:50px; text-align:center; float:left;}
+.huazits{ width:150px; text-align:center; float:left;}
+.huazikuan{width:210px; text-align:center; float:left;}
+.huaziin{width:70px; text-align:center; float:left; color: #2ABE7D;}
+.huaziout{ width:70px; text-align:center; float:left; color: #FB7823;}
+.huazinum{width:70px; text-align:center; float:left; }
+
+
+/* 我的银行卡 */
+.yinhangka{ width:100%; float:left;}
+.yinhangka h2{ line-height:50px; float:left; padding-left:30px; font-weight:normal; font-size:14px; width:90%;}
+.yinhangkap{ float:left; width:100%; margin-bottom:7px;}
+.yinhangkap bdo{ float:left; width:98px; margin-right:8px;}
+.yinhangkap span{ float:right; line-height:20px;}
+.yinhangkap select{ float:left; height:22x; margin-right:8px; color:#2f2f2f;}
+.yinhangkap_box{ width:215px; height:22px; border:1px solid #8f8f8f; float:left; margin-right:10px; line-height:22px;}
+.yinhangkap b{ font-weight:normal; float:left; line-height:30px; color:#2f2f2f;}
+.yinhangkap_icon{ width:62px; height:22px; background:url(/images/Recharge/Recharge_07.gif) no-repeat; text-align:center; line-height:22px; cursor:pointer; border:none; margin-left:100px;}
+.yinhangkab{ float:left; padding-top:20px; width:90%; padding-left:30px; background:url(/images/icon.gif) no-repeat 6px 18px; color:#3398ef;}
+.yinhangkab span{ color:#2f2f2f;}
+
+.yinhangka_shuju_b div p{ text-align:center; color:#414141; border-right:1px solid #a0a0a0; float:left;}
+
+.biao2{ float:left;height:20px; padding-top:10px;}
+.yinhangka_shuju_b div span p{ border:none; color:#3398ef;}
+.a1{ margin-left:10px;}
+.a2{ margin-left:10px;}
+.a3{ margin-left:80px;}
+.a4{ margin-left:85px;}
+.a5{ margin-left:50px;}
+.a6{ margin-left:50px;}
+.a7{ margin-left:30px;}
+.a8{margin-left: 20px;}
+.yinhangka_num{width: 30px;}
+.yinhangka_biao{ float:left; width:40px;padding-left: 3px;}
+.yinhangka_account{width:140px;}
+.yinhangka_bank{width:100px;}
+.yinhangka_locate{width:120px;}
+.yinhangka_brand{width:100px;}
+.yinhangka_default{width:80px;}
+.yinhangka_gai{width: 70px;}
+
+
+
+/* 账户明细 */
+.mingxib{ float:left; padding-left:14px; margin-bottom:15px;}
+.mingxip{ float:left; width:80%; padding-left:75px; margin-bottom:40px;}
+.mingxi_box{ width:224px; height:20px; background:#FFF; border:1px solid #858585; margin-left:10px; margin-right:10px; line-height:18px;}
+.mingxi_c{ width:698px; border:1px solid #a0a0a0; float:left; border-bottom:none;}
+.mingxi_c div{ height:30px; line-height:30px; border-bottom:1px solid #a0a0a0;}
+.mingxi_c div p{ text-align:center;  border-right:1px solid #a0a0a0;padding-left:3px; padding-right:3px; float:left; font-size:12px;}
+.mingxi_c div span p{ border:none;}
+.kuandu{ width:205px; text-align:center;}
+.c1{ margin-left:10px;}
+.c2{ margin-left:55px;}
+.c23{ margin-left:100px;}
+.c22{ margin-left:60px;}
+.c3{ margin-left:40px;}
+.c4{ margin-left:70px;}
+.c5{ margin-left:110px;}
+.c6{ margin-left:50px;}
+.c6xitong{margin-left:40px;}
+.c7{ margin-left:30px;}
+.serialNumber{width:50px; text-align: center;} .account_ts{width:120px; text-align: center;} .type{width:50px; text-align: center;} .mingxi_memo{width:170px; text-align: center;}  .incoming{width:86px; text-align: center; color: #2ABE7D;}  .outcoming{width:85px; text-align: center; color: #FB7823;}  .balance{width:85px; text-align: center;}
+/* 会员线下充值 */
+.chazhao{ width:100%; height:57px; border-bottom:1px dashed #858585; float:left;}
+.chazhao p{ line-height:57px; float:left; padding-left:15px;}
+.chazhao_box{ width:223px; height:22px; border:1px solid #8f8f8f; margin-top:15px; float:left; margin-right:8px; line-height:22px;}
+.chazhao_icon{ width:62px; height:22px; float:left; margin-top:15px; background:url(../images/Recharge/Recharge_07.gif) no-repeat; border:none; cursor:pointer; text-align:center; color:#2f2f2f;}
+.huiyuan,.xiadan{ width:100%; float:left; padding-top:20px;}
+.huiyuan div,.xiadan div{ float:left; width:100%; margin-bottom:13px; line-height:22px;}
+.huiyuan strong,.xiadan strong{ font-weight:normal; color:#a81010;}
+.huiyuan p{ width:120px; float:left; line-height:24px; margin-right:3px;}
+.xiadan p{ width:158px; float:left; line-height:24px; margin-right:3px;}
+.huiyuan span,.xiadan span{ float:right;}
+.huiyuan_box{width:223px; height:22px; border:1px solid #8f8f8f;float:left; margin-right:8px; line-height:22px;}
+.money_box{width:91px; height:22px; border:1px solid #8f8f8f;float:left; margin-right:8px; line-height:22px;}
+.huiyuan select{background:#FFF; border:1px solid #8f8f8f; font-size:12px; margin-right:5px; color:#2f2f2f; line-height:24px; float:left;}
+.money_box2{ width:419px; height:58px; border:1px solid #8f8f8f; float:left; line-height:18px; color:#4f4f4f; line-height:18px; font-size:12px;}
+.chazhao_icon2{ width:74px; height:28px; text-align:center; background:url(/images/anniu.gif) no-repeat; border:none; cursor:pointer; color:#2f2f2f; line-height:28px; margin-left:122px;}
+
+/* 花店余额流水查询 */
+.dianliu_c{ width:778px; border:1px solid #a0a0a0; float:left; border-bottom:none;}
+.dianliu_c div{ height:30px; line-height:30px; border-bottom:1px solid #a0a0a0;}
+.dianliu_c div p{ color:#414141; border-right:1px solid #a0a0a0;float:left; padding-left:3px; padding-right:3px; text-align:center;}
+.dianliu_c div span p{ border:none; margin-left:3px;}
+.dianliu_c div em{margin-top:4px; margin-right:4px; float:left;}
+.dianliu_c span{ color:#41870d;}
+.huadian{ float:left; line-height:36px; width:90%; padding-left:20px; color:#2b6b05; height:36px;}
+#huadian_box{ width:140px;background:#FFF; border:1px solid #8f8f8f;}
+.d1{ margin-left:60px;}
+.d2{ margin-left:40px;}
+.d3{ margin-left:20px;}
+.d4{ margin-left:20px;}
+.d5{ margin-left:10px;}
+.d6{ margin-left:20px;}
+.d7{ margin-left:30px;}
+.d9{ margin-left:50px;}
+.d10{ width:180px; text-align:center;}
+.kk{ width:60px; text-align:center;}
+.kkk{width:80px; text-align:center;}
+.yanse{ color:#1263a1; float:left; line-height:36px; width:90%; padding-left:20px;height:36px;}
+.leix{ width:350px; text-align:center;}
+.r1{ margin-left:20px;}.r2{ margin-left:20px;}.r3{ width:340px; text-align:center;}.r4{ margin-left:30px;}.r5{ margin-left:20px;}.r6{ margin-left:10px;}
+.dianliu_kuan{ width:130px;
+ border-right: 1px solid #A0A0A0;
+    color: #414141;
+    float: left;
+    padding-left: 3px;
+    padding-right: 3px;
+    text-align: center;}
+.dianliu_code{ width:61px;}
+.dianliu_date{ width:61px;}
+.dianliu_type{ width:60px;}
+.dianliu_order{ width:80px;}
+.dianliu_send{ width:80px;}
+.dianliu_accum{ width:80px;}
+.dianliu_balance{ width:80px;}
+
+
+/* 会员余额查询 */
+.hui{ width:100px;}
+.hh{ width:130px;}
+.sj{width: 60px;}
+.dingdan{ width:275px;}
+.k1{ width:270px; text-align:center;}
+
+.huiliu_r1{margin-left: 25px;}
+.huiliu_r2{margin-left: 80px;}
+.huiliu_r2{margin-left: 30px;}
+.huiliu_r3{margin-left: 90px;}
+.huiliu_r33{margin-left: 130px;}
+.huiliu_r4{ margin-left:50px;}
+.huiliu_r5{ margin-left:30px;}
+.huiliu_r55{ margin-left:5px;}
+.huiliu_r6{margin-left: 60px;}
+.huiliu_r66{margin-left: 30px;}
+.huiliu_r7{margin-left: 50px;}
+
+.huiyuanaccount_r1{margin-left: 25px;}
+.huiyuanaccount_r2{margin-left: 30px;}
+.huiyuanaccount_r3{margin-left: 60px;}
+.huiyuanaccount_r4{margin-left: 92px;}
+.huiyuanaccount_r5{margin-left: 40px;}
+.huiyuanaccount_r6{margin-left: 15px;}
+.huiyuanaccount_r7{margin-left: 25px;}
+
+.member_num{width: 60px;}
+.member_date{width: 80px;}
+.member_type{width: 50px;}
+.member_memo{width: 120px;}
+.member_dingdan{width: 120px;}
+.member_in{width: 70px; color: #2ABE7D;}
+.member_out{width: 70px;color: #FB7823;}
+.member_balance{width: 70px;}
+
+.member_a1{margin-left: 20px;}
+.member_a2{margin-left: 30px;}
+.member_a3{margin-left: 30px;}
+.member_a4{margin-left: 50px;}
+.member_a5{margin-left: 100px;}
+.member_a6{margin-left: 70px;}
+.member_a66{margin-left: 50px;}
+.member_a7{margin-left: 20px;}
+.member_a8{margin-left: 17px;}
+.member_a88{margin-left: 15px;}
+
+/* 快速下单交易 */
+.kuaidan{ height:auto;padding-bottom:5px; width:100%; border-bottom:1px dashed #858585; float:left;}
+.kuaidan div{ line-height:44px; float:left; width:95%; padding-left:12px;}
+.kuaidan div img{ float:left; margin-top:12px; margin-right:5px;}
+.kuaidan div span{ float:left;}
+.kuaidan p{float:left; padding-left:15px; width:85px; margin-top:20px;}
+.kuaidan_icon{ width:74px; height:28px; text-align:center; background:url(../images/anniu.gif) no-repeat; border:none; cursor:pointer; color:#2f2f2f; line-height:28px; margin-left:162px;}
+.gao{ float:left; width:100%; height:15px;}
+
+/* 支付密码管理 */
+.mima{ width:683px; float:left; padding-left:12px; padding-top:24px;}
+.mima h2{ line-height:42px; float:left; font-weight:normal;}
+.mima_c{ width:657px; border:1px solid #8f8f8f; float:left; padding-top:24px; padding-left:24px; height:152px;}
+.mima_c div{ width:100%; margin-bottom:14px; height:24px; float:left;}
+.mima_c div p{ float:left; width:100px; line-height:24px;}
+
+.mima_c_box{ width:223px; height:22px; float:left; border:1px solid #8f8f8f; line-height:22px;}
+.mima_c_icon{ width:62px; height:22px; background:url(../images/Recharge/Recharge_07.gif) no-repeat; text-align:center; line-height:22px; color:#212121; cursor:pointer; border:none; margin-left:103px;}
+.mima_c div bdo {
+    float: right;
+}
+.mima_c_div_span {
+    background: url("/images/dot.gif") no-repeat scroll 6px 50% transparent;
+    border: 1px solid #FF6600;
+    float: left;
+    height: 22px;
+    line-height: 22px;
+    padding-left: 25px;
+    padding-right: 15px;
+}
+
+.mima_s_div_span {
+    border: 1px solid white;
+    float: left;
+    height: 22px;
+    line-height: 22px;
+    padding-left: 25px;
+    padding-right: 15px;
+}
+
+.main_right11{
+	margin: auto;
+	width: 700px;
+	
+}
+
+
+
+/* 客服业绩查询 */
+.kefu{float:left; width:560px;height:20px; padding-left:140px; line-height:20px; padding-top:20px; padding-bottom:10px;}
+.kefu_kuai{ width:685px; height:25px; background:#dfdedf; float:left; line-height:25px; padding-left:15px;}
+.kefu_kuai span{ color:#a61717;}
+.kefu_kuan{ width:160px;}
+.block{ color:#000;}
+.kefu_t{width:180px; text-align: center;}
+.kefu_t1{width:150px; text-align: center;}
+.kefu_t2{width:190px; text-align: center;}
+.kefu_t3{width:150px; text-align: center;}
+
+/* 系统账户 */
+.xitong{ width:520px; float:left; border:1px solid #888888; margin-top:15px; border-bottom:none; margin-bottom:20px;}
+.xitong_t{ height:25px; float:left; border-bottom:1px solid #888; background:#dfdedf; width:520px;}
+.xitong_t b{ float:left; font-weight:normal; color:#414141; line-height:25px;}
+.xitong_box{ width:100%; float:left;}
+.xitong_box strong{ font-weight:normal; color:#4b9112;}
+.xitong_box bdo{ color:#ad1010; font-size:14px; font-weight:bold; padding-left:15px;}
+
+.yinhang_icon{ width:62px; height:22px; background:url(../images/Recharge/Recharge_07.gif) no-repeat; text-align:center; line-height:22px; cursor:pointer; border:none; margin-left:100px; margin-top:10px;}
+.yy{ width:90px;}
+.bb{ width:30px;}
+.jj{ width:70px;}
+
+/* 订单冻结明细 */
+.ddmx{ width:700px; float:left; height:31px;}
+.dingdanmingxi{ width:488; height:26px; padding-left:222px; background:url(../images/title_bg.gif) repeat-x;}
+.dingdanmingxi ul{}
+.dingdanmingxi ul li{ width:139px; height:31px; text-align:center; color:#414141; float:left; font-size:14px; font-weight:bold; line-height:24px;}
+.dingdanmingxi ul li:hover,.dingdanmingxi ul li.hover{ background:url(../images/qiehuan%5D.gif) no-repeat; color:#FFF; cursor:pointer;}
+.freeze_num{ width:60px;}
+.freeze_nme{ width:80px;}
+.freeze_sendName{ width:80px;}
+.freeze_billtype{ width:130px;}
+.freeze_start{ width:130px;}
+.freeze_billstatus{ width:70px;}
+.freeze_cash{ width:90px;}
+
+.freeze_t1{ margin-left:20px;}
+.freeze_t2{ margin-left:30px;}
+.freeze_t3{ margin-left:40px;}
+.freeze_t4{ margin-left:55px;}
+.freeze_t5{ margin-left:100px;}
+.freeze_t6{ margin-left:70px;}
+.freeze_t7{ margin-left:30px;}
+
+
+
+/*银行管理*/
+.yinhang_paixu{width: 40px;}
+.yinhang_biao{float:left;height:20px; padding-top:10px;width: 20px;}
+.yinhang_name{width: 150px;}
+.yinhang_image{width: 250px;height: 30px;}
+.yinhang_operate{width: 150px;}
+.yinhang_caozuo{width: 90px;}
+
+.yinhang_title{ margin-left:10px;}
+.yinhang_title1{ margin-left:60px;}
+.yinhang_title2{margin-left:150px;}
+.yinhang_title3{ margin-left:150px;}
+.yinhang_title4{margin-left:90px;}
+
+/*花店线下充值*/
+.offline_huadian{ height:auto;padding-bottom:5px; width:100%; border-bottom:1px dashed #858585; float:left;}
+
+/*提现申请处理*/
+.tichu_num {margin-left:8px;}
+.tichu_ts{ margin-left:50px;} 
+.tichu_huadian { margin-left:60px; text-align:center;}
+.tichu_account{ margin-left:100px;}
+.tichu_money{margin-left:110px;}
+.tichu_caozuo{ margin-left:45px;}
+.tichu_kk{ width:120px; text-align:center;}
+
+.tichu_numhuapu {margin-left:15px;}
+.tichu_tshuapu{ margin-left:50px;}
+.tichu_payhuapu{margin-left: 50px;}
+.tichu_yearhuapu{margin-left: 15px;}
+.tichu_huadianhuapu { margin-left:40px; text-align:center;}
+.tichu_yuminghuapu { margin-left:80px; text-align:center;}
+.tichu_caozuohuapu{ margin-left:85px;}
+
+.tichu_flow_num{width: 40px;}
+.tichu_flow_ts{width: 120px;}
+.tichu_flow_name{width: 100px;}
+.tichu_flow_account{width:200px;}
+.tichu_flow_cash{width: 100px;}
+.tichu_flow_caozuo{width: 90px;}
+
+
+
+.tichu_flow_numhuapu{width: 60px;}
+.tichu_flow_tshuapu{width: 115px;}
+.tichu_flow_namehuapu{width: 105px;}
+.tichu_flow_yuminghuapu{width: 150px;}
+.tichu_flow_payhuapu{width: 60px;}
+.tichu_flow_yearhuapu{width: 80px;}
+.tichu_flow_caozuohuapu{width: 70px; text-align: center;}
+
+/*支付密码    zhifumima*/
+.label_error  {
+	background: url(/images/dot.gif) no-repeat 3px #FFF2E9;
+	border: 1px solid #FF6600;
+	padding: 5px 10px 5px 30px;
+	margin-left:5px;
+	background-color: #FFF2E9;
+}
+
+.chazhao_bdo {
+    float: left;
+    height: 22px;
+    line-height: 22px;
+    margin-top: 14px;
+    padding-left: 25px;
+    padding-right: 15px;
+}
+
+.huiyuan_bdo {
+    background: url("../images/dot.gif") no-repeat scroll 6px 50% transparent;
+    border: 1px solid #FF6600;
+    float: left;
+    height: 22px;
+    line-height: 22px;
+    padding-left: 25px;
+    padding-right: 15px;
+}
+
+.huiyuan em, .xiadan em, .yinhangkap em {
+    float: left;
+    font-style: normal;
+}
+
+.kuaidan_bdo {
+    float: left;
+    height: 22px;
+    line-height: 22px;
+    margin-top: 14px;
+    padding-left: 25px;
+    padding-right: 15px;
+}
+
+.xiadan_bdo {
+    background: url("/images/dot.gif") no-repeat scroll 6px 50% transparent;
+    border: 1px solid #FF6600;
+    float: left;
+    height: 22px;
+    line-height: 22px;
+    padding-left: 25px;
+    padding-right: 15px;
+}
+.yinhangkap_label {
+    background: url("/images/dot.gif") no-repeat scroll 6px 50% #FFF2E9;
+    border: 1px solid #FF6600;
+    float: left;
+    height: 22px;
+    line-height: 22px;
+    padding-left: 25px;
+    padding-right: 15px;
+}
+
+.managebank_label {
+	background: url("/images/dot.gif") no-repeat scroll 6px 50% #FFF2E9;
+    border: 1px solid #FF6600;
+    float: right;
+    height: 22px;
+    line-height: 22px;
+    padding-left: 25px;
+    padding-right: 15px;
+}
+
+/*提现手续费*/
+.serialNumbershouxu{width:50px; text-align: center;}
+.account_tsshouxu{width:120px; text-align: center;}
+.typeshouxu{width:180px; text-align: center;}
+.mingxi_memoshouxu{width:170px; text-align: center;}
+.incomingshouxu{width:86px; text-align: center; color: #2ABE7D;}
+.balanceshouxu{width:50px; text-align: center;}
+.shouxuc1{ margin-left:10px;}
+.shouxuc2{ margin-left:55px;}
+.shouxuc3{ margin-left:100px;}
+.shouxuc4{ margin-left:130px;}
+.shouxuc5{ margin-left:90px;}
+.shouxuc6{ margin-left:40px;}
+
+
+
+/* 帮助 */
+.bangzhu_r_t{ width:100%; height:32px; border-bottom:1px solid #ccc; float:left;}
+.bangzhu_r_t b{ padding-left:10px; float:left; font-weight:bold; font-size:14px; color:#1154ae; line-height:32px;}
+.bangzhu_r_c{ float:left; width:100%;}
+.denglv_pic{ float:left; width:100%; margin-top:20px;}
+.denglv_pic p{ float:left; width:96%; font-size:14px; color:#505050; padding-left:10px; line-height:24px;}
+.denglv_pic b{ float:left; padding-left:57px;}
+.denglv_pic img{ float:left; margin-top:14px;}
+.denglv_pic strong{ font-size:14px; color:#be0606; font-weight:bold;}
+.bangzhu_div {float: left;width: 100%;}
+.bangzhu_div_t {background: url("../images/help_07.jpg") repeat-x scroll 0 0 transparent;border-bottom: 1px solid #D7D7D7;border-top: 1px solid #D7D7D7;float: left;height: 32px;padding-left: 8px;width: 172px;}
+.bangzhu_div_t img {float: left;margin-right: 12px;margin-top: 10px;}
+.bangzhu_div_t b {color: #676767;float: left;font-size: 14px;font-weight: bold;padding-top: 8px;}
+.bangzhu_div_t a {color: #676767;font-size: 14px;font-weight: bold;text-decoration: none;}
+.bangzhu_div_c {float: left;width: 100%;}
+.nav {list-style-type: none;text-align: left;width: 100%;}
+.nav a {padding-left: 20px;text-decoration: none;}
+.nav li {display: block;float: left;width: 180px;}
+.nav li p {font-size: 14px;margin-top: 10px;padding-left: 13px;}
+.nav li b {background: url("/images/help_15.jpg") no-repeat scroll 13px 3px transparent;float: left;font-size: 14px;font-weight: normal;height: 19px;margin-top: 10px;padding-left: 13px;}
+.lilili{background: url("/images/help_15.jpg") no-repeat scroll 13px 3px transparent;}
+
+
+
+
+

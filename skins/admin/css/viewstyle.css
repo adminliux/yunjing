@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {font-size:12px;margin:0;padding:0;}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dd, dl, dt, li, ol, ul, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td
+{margin: 0;padding: 0;border: 0;outline: 0;font-weight: inherit;font-style: inherit;font-family: inherit;text-align: left;vertical-align: baseline; font-size:12px; color:#5f5f5f;}
+a img {border:none; }
+li{list-style-type: none;}
+a{text-decoration: none; color:#6b6c6f; font-weight: normal;}
+
+.conbady{ float:left;}
+.conbady_c{ float:left; width:535px;}
+.concon{ width:355px; float:left; padding-top:20px;}
+.concon_div{ float:left; margin-top:10px; width:100%;}
+.concon_div p{ float:left; width:80px; margin-right:5px;}
+.concon_div em{ font-style:normal; float:right; padding-top:6px;}
+.concon_input{ float:left; width:244px; height:22px; border:1px solid #bfbfbf; line-height:22px; padding-left:5px; color:#5f5f5f;}
+.concon_div select{ float: left; margin-right:10px; color:#5f5f5f;}
+.concon_yuan{ float:left;width:13px; height:13px; margin-top:3px; margin-right:6px;}
+.xiadan_co{ float:left; width:125px; margin-right:7px; line-height:22px; color:#666;}
+.concon_kuan{ width:14px; height:15px; float:left; margin-right:6px; margin-top:3px; }
+.concon_text{ float:left; width:244px; height:81px; margin-right:9px; border:1px solid #c9c9c9; line-height:18px; color:#5f5f5f; overflow:auto; line-height:24px;}
+.concon_icon{ float:left; width:65px; height:27px; background:url(../images/icon.jpg) no-repeat; cursor:pointer; border:none; margin-right:10px;}
+.concon_icon2{ float:left; width:65px; height:27px; background:url(../images/icon2.jpg) no-repeat; cursor:pointer; border:none; }
+.tishi{ float:left; width:180px; padding-top:20px;}
+
+/* 弹出框 */
+.oredr_ch3{ float:left; height:22px; background: #feeded url(../images/dot.GIF) no-repeat 6px; padding-left:25px; line-height:22px; font-weight:normal; padding-right:10px; border:1px solid #f0aaaa;}
+.oredr_ch2{ float:left; height:22px; background:#daeffb url(../images/blue.GIF) no-repeat 6px; padding-left:25px; line-height:22px; font-weight:normal; padding-right:10px; border:1px solid #8cadd3;}
+.oredr_ch1{ float:left; background:url(../images/right.GIF) no-repeat 6px 4px; width:100px; height:22px;}

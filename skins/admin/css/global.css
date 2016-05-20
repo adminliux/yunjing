@@ -1,0 +1,114 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{position:relative;}
+body,div,dl,dt,dd,ul,li,h1,h2,h3,h4,h5,h6,h7,h8,form,input,p,strong,em{ margin:0; padding:0; font-size:12px; color:#000; font:Arial, Helvetica, sans-serif;}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dd, dl, dt, li, ol, ul, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td
+{margin: 0;padding: 0;border: 0;outline: 0;font-weight: inherit;font-style: inherit;font-family: inherit;text-align: left;vertical-align: baseline; font-size:12px; color:#505050;}
+h1,h2,,h3,h4,h5,h6,p{border:0;}
+
+ul,dl{ list-style:none}
+img{ vertical-align:top;border:0;}
+h1,h2,,h3,h4,h5,h6,p{border:0;}
+.cls{clear:both}
+.cls: after{clear:both}
+/* top */
+#top{}
+.header{ height:27px; background:url(../images/header_02.gif) repeat-x; line-height:17px;}
+.header_c{ width:902px; height:25px; margin:0 auto;}
+.header_c .left{ height:25px; float:left;}
+.header_c .left ul{}
+#headerb{ width:60px; padding-left:18px; float:left; padding-right:8px;}
+.header_c .left ul li{ width:41px; text-align:center; line-height:25px; background:url(../images/header_04.gif) no-repeat right; float:left; height:25px; color:#53aa63;}
+#headerp{ width:60px; background:none;}
+.header_c .left ul li img{ float:left; padding-left:8px; margin-top:3px;}
+.header_c .left ul li p{ float: left;}
+.header_c .left ul li a{ color:#53aa63; text-decoration:none;}
+.header_c .left ul li a:hover{ color:#FFF; text-decoration:none;}
+.header_c .right{ float:right; line-height:25px; color:#53aa63;}
+.side{ background:url(../images/logo_03.gif) repeat-x; height:93px;}
+.logoside{ background:url(../images/tb/logo_022.jpg) no-repeat; height:91px; width:960px; margin:0 auto;}
+.logo_c{ width:872px; margin:0 auto; padding-right:30px;}
+.logo{ float:left; margin-top:3px; padding-left:34px;}
+.search{ float:right; width:367px; height:24px;margin-top:31px; background:#1f6038; padding:3px;}
+.box{ width:304px; height:24px; float:left; background:#FFF; padding-left:3px; line-height:24px; color:#999; border:none;}
+.icon{ width:60px; height:24px; float:left; background: url(../images/top_17.gif) no-repeat; border: none; cursor:pointer;}
+
+/* 转单 */
+.logoside2{ background:url(../images/tb/logo_022.jpg) no-repeat; height:91px; width:1128px; margin:0 auto;}
+.logo_c2{ width:872px; margin:0 auto; padding-right:30px;position:relative;}
+.logo2{position:absolute; width:225px; height:90px; left:40px; top:15px;}
+
+#content{ width:902px; margin:0 auto;}
+.position{ width:100%; height:26px; background:url(../images/index/content_03.gif) repeat-x; float:left;}
+.position h2{ float:left; line-height:26px; color:#000; padding-left:15px; font-weight:bold;}
+.position  img{ float:left; margin-top:8px; padding-left:10px; margin-right:10px;}
+.position p{ float:left; line-height:26px;}
+.main{ width:100%; float:left; margin-top:10px;}
+.main_left{ width:180px; float:left; border:1px solid #D7D7D7; border-top:none; border-bottom:none;}
+.menu{ width:157px; float:left; height:31px; border-bottom:1px solid #858585; list-style-type: none; text-align:left; line-height:31px; font-weight:bold;}
+#nav { width:158px;line-height: 22px;  list-style-type: none; text-align:left;}
+#nav a {text-decoration:none; color:#000; padding-left:20px;background:url(../images/index/dian.gif) no-repeat 10px center;}
+#nav li {float:left; width:170px;color:#000;display:block;border-bottom:#d7d7d7 1px solid; padding-left:10px; padding-top:5px; padding-bottom:5px;}
+#nav li p{ font-weight:bold;color:#000;}
+#nav li a  {color:#676767; text-decoration:none;}
+#nav li ul { list-style:none;text-align:left;}
+#nav li ul li{ border:none; text-decoration:none;display:block; line-height:23px; width:150px;}
+
+.main_right{ float:right; _height: 200px; min-height: 200px}
+/* 字体样式 */
+.name{ color:#224e9d; text-decoration:none;}
+.namebold{font-size: 12px;}
+/*.name:hover{ color:#224e9d; text-decoration:underline;}*/
+.queren{ color:#414141; text-decoration:none;}
+.queren:hover{ color:#414141; text-decoration:none;}
+.address{ color:#000; text-decoration:none;}
+.address:hover{ color:#000; text-decoration:underline;}
+.delete{ color:#3398ef ; text-decoration:none;}
+.delete:hover{ color:#.delete; text-decoration:underline;}
+.green{ color:#308d07; text-decoration:none; margin-left:3px;}
+.green:hover{ color:#308d07; text-decoration:underline;}
+.red{ color:#ca1217; text-decoration:none;}
+.red:hover{ color:#ca1217; text-decoration:underline;}
+.white{ color:#fff; text-decoration:none;}
+.white:hover{ color:#fff; text-decoration:underline;}
+
+/* bottom */
+
+.bottom{ width:782px;margin-top:30px; float:left; padding-top:21px; border-top:1px solid #c1c1c1; padding-left:200px;}
+.bottom_l{ width:200px; height:75px; border-right:1px solid #858585; float:left; margin-right:12px; padding-left:50px;}
+.bottom_l img{ float:left; margin-top:15px;}
+.bottom_r{ float:left; margin-top:5px;padding-top:15px; }
+.bottom_r a{ color:#000; text-decoration:none;}
+.bottom_r a:hover{ color:#000; text-decoration:underline;}
+.bottom_r p{ width:100%; height:22px; color:#000; float:left;}
+
+/*账户明细提醒*/
+
+#floatbox {
+	FONT-SIZE: 12px; OVERFLOW: hidden; WHITE-SPACE: nowrap; LIST-STYLE-TYPE: none; TEXT-OVERFLOW: ellipsis; o-text-overflow: ellipsis
+}
+
+#changshi2 A {
+	DISPLAY: block; OVERFLOW: hidden; WIDTH: 160px; WHITE-SPACE: nowrap; LIST-STYLE-TYPE: none; TEXT-OVERFLOW: ellipsis; o-text-overflow: ellipsis
+}
+table {border-collapse: collapse; border-spacing: 0;}
+/* 去掉所有li的默认图标 */
+li{list-style-type: none;}
+/* 所有图片默认没无边框 */
+img{border: 0 none;}
+/* 设置a标签的默认样式 */
+a{text-decoration: none; color:#505050; font-weight: normal;}
+/* 清除浮动 */
+.cls{clear:both;}
+/* 加载中... */
+.loading {background: url(../images/header/loading.gif) no-repeat 0 0; position: relative; top: 46%; left: 46%; height: 32px; width: 32px; text-align: center; line-height: 0;}
+/* 所有应用默认背景色为白色
+.app  {background-color: white;} */
+/* 拖拽对象时预览 */
+.previewEle {width:100%; height:45px; border: dashed 1px black; background: #EDF6CB;}
+/* 拖拽的样式 */
+.drag { display: block; opacity: 0.8; filter:alpha(opacity=80);border: solid 2px black;border-radius: 5px;-webkit-box-shadow: 0 0 20px black;/*#55*/
+-moz-box-shadow: 0 12px 20px black;box-shadow: 0 0 20px black;}
+
